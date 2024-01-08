@@ -1,0 +1,161 @@
+/* .navContainer{
+	margin-bottom: 50px;
+}
+ */
+ .introContent::before{
+    content: "";
+    display: block;
+    background-color: blue;
+    background-color: antiquewhite;
+height: 24px;
+width: 94%;
+position: relative;
+left: 34px;
+ }
+.introAbout{
+	    background: red;
+    height: 100px;
+    width: 100%;
+        border: 4px solid darkgreen;
+    border-radius: 5px;
+    /* margin-top: 50px; */
+}
+.introContent{
+	position: relative;
+    margin-bottom: 50px;
+}
+.introHead{
+	display: flex;
+    justify-content: center;
+}
+.introHead h2{
+	font-family: 'Cantora One', sans-serif;
+	   color: black;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.messageContent{
+	    top: -22px;
+    position: relative;
+    left: 35px;
+}
+.aboutUsInsideContent{
+	  background: antiquewhite;
+color: black;
+width: 94%;
+    border-radius: 2px;
+    box-shadow: inset 2px 15px 20px -15px black;
+}
+.introParaPara{
+	padding:  25px;
+}
+
+
+/* vision */
+ .visionContent::before{
+    content: "";
+    display: block;
+    background-color: blue;
+    background-color: antiquewhite;
+height: 24px;
+width: 94%;
+position: relative;
+left: 34px;
+ }
+
+.visionAbout{
+	    background: red;
+    height: 100px;
+    width: 100%;
+        border: 4px solid darkgreen;
+    border-radius: 5px;
+}
+.visionContent{
+	position: relative;
+    margin-bottom: 50px;
+}
+.visionHead{
+	display: flex;
+    justify-content: center;
+}
+.visionHead h2{
+	font-family: 'Cantora One', sans-serif;
+	   color: black;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.visionMessageContent{
+	    top: -22px;
+    position: relative;
+    left: 35px;
+}
+.visionInsideContent{
+	     background: antiquewhite;
+color: black;
+width: 94%;
+    border-radius: 2px;
+    box-shadow: inset 2px 15px 20px -15px black;
+}
+.visionParaPara{
+	padding:  25px;
+}
+
+/* Target Clients */
+ .clientContent::before{
+    content: "";
+    display: block;
+    background-color: blue;
+    background-color: antiquewhite;
+height: 24px;
+width: 94%;
+position: relative;
+left: 34px;
+ }
+.clientsAbout{
+	    background: red;
+    height: 100px;
+    width: 100%;
+        border: 4px solid darkgreen;
+    border-radius: 5px;
+  
+}
+.clientsContent{
+	position: relative;
+    margin-bottom: 50px;
+}
+.clientsHead{
+	display: flex;
+    justify-content: center;
+}
+.clientsHead h2{
+	font-family: 'Cantora One', sans-serif;
+	   color: black;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+.clientsMessageContent{
+	top: -22px;
+    position: relative;
+    left: 35px;
+}
+.clientsInsideContent{
+	     background: antiquewhite;
+color: black;
+width: 94%;
+    border-radius: 2px;
+    box-shadow: inset 2px 15px 20px -15px black;
+}
+.clientsParaPara{
+	padding:  25px;
+}
+.introParaPara{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
