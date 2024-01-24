@@ -1,54 +1,70 @@
 <?php include 'common/header.php';?>
 <?php include 'common/navigation.php';?>
 
+<!-- scroll Top to bottom -->
+<div class="scroll_btn">
+	<a id="bottom_top_scroll"></a>
+</div>
 <!-- SLIDER  -->
 
 <div class="slider_container">
 	<div class="back_img">
-
+		<img src="assets/images/dots-square.png" alt="">
 	</div>
 	<div class="container">
 		<div class="slider_wrapper">
-			<div class="swiper mySwiper">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="slide_content">
-							<div class="content_wrap">
-								<div class="content_title">
-									<h2>Enjoy Your Holiday</h2>
-									<h2>With Our agency</h2>
-								</div>
-								<ul class="content_list">
-									<li> SPECTACULAR THINGS TO DO</li>
-									<li> LOCALS GUIDE AVAILABLE </li>
-									<li> ALL INCLUSIVE FAMILY HOLIDAY</li>
-								</ul>
-								<div class="slide_btn">
-									<a href="archive-common-page.php"><button class="">View Package<span><i
-													class="fa-solid fa-angles-right"></i></span></button></a>
-								</div>
+			<div class="icons_wrapper">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide_content">
+								<div class="content_wrap">
+									<div class="plane_arrow_img">
 
-							</div>
-							<div class="slide_img_wrapper">
-								<!-- <div class="plane_arrow">
-									<img src="assets/images/plane_arrow.png" alt="">
-								</div> -->
-								<div class="img_wrap">
-									<img src="assets/images/tours-4.jpg" alt="">
+									</div>
+									<div class="content_title">
+										<h2>Enjoy Your Holiday</h2>
+										<h2>With Our agency</h2>
+									</div>
+									<ul class="content_list">
+										<li> SPECTACULAR THINGS TO DO</li>
+										<li> LOCALS GUIDE AVAILABLE </li>
+										<li> ALL INCLUSIVE FAMILY HOLIDAY</li>
+									</ul>
+									<div class="slide_btn">
+										<a href="single-page.php"><button class="learn-more">
+												<span class="circle" aria-hidden="true">
+													<span class="icon arrow"></span>
+												</span>
+												<span class="button-text">Learn More</span>
+											</button>
+										</a>
+									</div>
+
 								</div>
-								<div class="img_wrap">
-									<img src="assets/images/tours-1.jpg" alt="">
-								</div>
-								<div class="img_wrap">
-									<img src="assets/images/tours-2.jpg" alt="">
+								<div class="slide_img_wrapper">
+									<!-- <div class="plane_arrow">
+										<img src="assets/images/plane_arrow.png" alt="">
+									</div> -->
+									<div class="img_wrap">
+										<img src="assets/images/tours-4.jpg" alt="">
+									</div>
+									<div class="img_wrap">
+										<img src="assets/images/tours-1.jpg" alt="">
+									</div>
+									<div class="img_wrap">
+										<img src="assets/images/tours-2.jpg" alt="">
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					<div class="swiper-pagination"></div>
 				</div>
-				<div class="swiper-pagination"></div>
 			</div>
+
 		</div>
+
 	</div>
 </div>
 </div>
@@ -63,7 +79,7 @@
 					<img class="img_fade" src="assets/images/destination.png" alt="">
 					<img class="img_color" src="assets/images/destination_color.png" alt="">
 				</div>
-				<select name="" id="" class="select-field" id="mySelect" placeholder="">
+				<select name="" id="" class="select_field" id="mySelect" placeholder="">
 					<option value="">Destination</option>
 					<option value="">Nepal</option>
 					<option value="">India</option>
@@ -75,7 +91,7 @@
 					<img class="img_fade" src="assets/images/type0.png" alt="">
 					<img class="img_color" src="assets/images/type_color.png" alt="">
 				</div>
-				<select name="" id="" class="select-field" placeholder=" Type">
+				<select name="" id="" class="select_field" placeholder=" Type">
 					<option value="">Booking Type</option>
 					<option value="">Rock Climbing</option>
 					<option value="">Jungle Safari</option>
@@ -87,11 +103,11 @@
 					<img class="img_fade" src="assets/images/duration5.png" alt="">
 					<img class="img_color" src="assets/images/duration_color.png" alt="">
 				</div>
-				<select name="" id="" class="select-field" placeholder="Duration">
+				<select name="" id="" class="select_field" placeholder="Duration">
 					<option value="">Duration</option>
-					<option value="">Nepal</option>
-					<option value="">India</option>
-					<option value="">China</option>
+					<option value="">1 Day</option>
+					<option value="">2 Days</option>
+					<option value="">3 Days</option>
 				</select>
 			</div>
 			<div class="search_button">
@@ -222,8 +238,6 @@
 					<img src="assets/images/title_icon.png" alt="">
 					<span class="right_shape"></span>
 				</div>
-
-
 			</div>
 		</div>
 	</div>
@@ -268,7 +282,7 @@
 											</div>
 										</div>
 										<div class="commont_btn">
-											<a href="#" class="btn_btn">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+											<a href="single-page.php" class="btn_btn">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
 										</div>
 									</div>
 								</a>
@@ -303,7 +317,7 @@
 											</div>
 										</div>
 										<div class="commont_btn">
-											<a href="#" class="btn_btn">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
+											<a href="single-page.php" class="btn_btn">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
 										</div>
 									</div>
 								</a>
@@ -421,10 +435,15 @@
 				<!-- <div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div> -->
 			</div>
-			<div class="slide_btn">
-				<a href="archive-common-page.php"> <button class="">View More<span><i
-								class="fa-solid fa-angles-right"></i></span></button></a>
-			</div>
+			<!-- <div class="section_btns">
+				<a href="archive-common-page.php">
+					<button class="sec_common_btn">
+						<span class="text_wrap">
+							<span>Learn More<span class="icon arrow"></span></span>
+						</span>
+					</button>
+				</a>
+			</div> -->
 		</div>
 	</div>
 </div>
@@ -898,9 +917,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="slide_btn">
-						<a class="link_url" href="archive-common-page.php"><button class="">View More<span><i
-										class="fa-solid fa-angles-right"></i></span></button>
+					<div class="section_btns">
+						<a href="archive-common-page.php">
+							<button class="sec_common_btn">
+								<span class="text_wrap">
+									<span>Learn More<span class="icon arrow"></span></span>
+								</span>
+							</button>
+						</a>
 					</div>
 				</div>
 
@@ -1091,6 +1115,15 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="section_btns">
+					<a href="archive-common-page.php">
+						<button class="sec_common_btn">
+							<span class="text_wrap">
+								<span>Read More<span class="icon arrow"></span></span>
+							</span>
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>

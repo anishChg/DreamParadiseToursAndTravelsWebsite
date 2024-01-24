@@ -26,7 +26,7 @@
     </div>
   </div>
   <div class="enq_page_wrapper">
-    <h3 class="enq_title">Tour Name : &nbsp; <span>Pokhara, Nepal</h3>
+    <!-- <h3 class="enq_title">Tour Name : &nbsp; <span>Pokhara, Nepal</h3> -->
     <div class="container">
       <div class="form_wrapper">
 
