@@ -10,7 +10,7 @@
           <h2>To learn additional information, please click on the "enquiry" button.</h2>
         </div>
        <div class="section_btns">
-         <a href="archive-common-page.php">
+         <a href="enquiry-page.php">
            <button class="sec_common_btn">
              <span class="text_wrap">
                <span>Enquiry<span class="icon arrow"></span></span>

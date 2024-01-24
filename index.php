@@ -1050,6 +1050,7 @@
 					<div class="rt_ct_wrap">
 
 						<div class="blg_wrapper">
+									<a class="link_url" href="blogs-page.php">
 							<div class="blg_img">
 								<img src="assets/images/tours-4.jpg" alt="">
 								<div class="overlay_txt">
@@ -1064,6 +1065,7 @@
 									<h5><i class="fa-solid fa-user"></i><span>Hari Dhakal</span></h5>
 								</figcaption>
 							</div>
+							</a>
 						</div>
 						<div class="blg_wrapper">
 							<a class="link_url" href="blogs-page.php">
@@ -1083,6 +1085,7 @@
 							</a>
 						</div>
 						<div class="blg_wrapper">
+									<a class="link_url" href="blogs-page.php">
 							<div class="blg_img">
 								<img src="assets/images/tours-2.jpg" alt="">
 								<div class="overlay_txt">
@@ -1097,8 +1100,10 @@
 									<h5><i class="fa-solid fa-user"></i><span>Hari Dhakal</span></h5>
 								</figcaption>
 							</div>
+							</a>
 						</div>
 						<div class="blg_wrapper">
+									<a class="link_url" href="blogs-page.php">
 							<div class="blg_img">
 								<img src="assets/images/tours-3.jpg" alt="">
 								<div class="overlay_txt">
@@ -1113,11 +1118,12 @@
 									<h5><i class="fa-solid fa-user"></i><span>Hari Dhakal</span></h5>
 								</figcaption>
 							</div>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="section_btns">
-					<a href="archive-common-page.php">
+					<a href="blog-archive-page.php">
 						<button class="sec_common_btn">
 							<span class="text_wrap">
 								<span>Read More<span class="icon arrow"></span></span>
