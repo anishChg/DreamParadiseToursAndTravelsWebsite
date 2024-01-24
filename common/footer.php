@@ -9,10 +9,15 @@
         <div class="enq_des">
           <h2>To learn additional information, please click on the "enquiry" button.</h2>
         </div>
-        <div class="button_wrap">
-          <a href="enquiry-page.php"><button class="enq_btn">Enquiry <span><i
-                  class="fa-solid fa-arrow-right-long"></i></span></button></a>
-        </div>
+       <div class="section_btns">
+         <a href="archive-common-page.php">
+           <button class="sec_common_btn">
+             <span class="text_wrap">
+               <span>Enquiry<span class="icon arrow"></span></span>
+             </span>
+           </button>
+         </a>
+       </div>
       </div>
     </div>
   </div>
@@ -35,10 +40,10 @@
             </div>
             <div class="media_list">
               <ul class="social_media">
-                <li class="fb"><a href="fb.com"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li class="inst"><a href="instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li class="ytb"><a href="youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
-                <li class="twit"><a href="twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="fb"><a href="fb.com"><i class="fa-brands fa-facebook-f icon_media"></i></a></li>
+                <li class="inst"><a href="instagram.com"><i class="fa-brands fa-square-instagram icon_media"></i></a></li>
+                <li class="ytb"><a href="youtube.com"><i class="fa-brands fa-youtube icon_media"></i></a></li>
+                <li class="twit"><a href="twitter.com"><i class="fa-brands fa-twitter icon_media"></i></a></li>
               </ul>
             </div>
           </div>
@@ -133,9 +138,11 @@
 <!-- <script type="text/javascript" src="assets//bootstrap/js/all.min.js"></script> -->
 
 <!-- SELECT 2 Plugins -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
-  integrity="sha512-h//YUn5zVRP/XTX8FhIZT4+CtuxOYca/J1nCFbJ8p3NtXhvN+BFoQQ5FP/PBuWzT8BpE/5W9P2PKDkyDEKYfCQ=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+<!-- Gallery Popup  -->
+<!-- <script src="assets/gallery-popup/dist/simple-lightbox.jquery.min.js"></script> -->
 
 
 <script type="text/javascript" src="assets/js/script.js"></script>

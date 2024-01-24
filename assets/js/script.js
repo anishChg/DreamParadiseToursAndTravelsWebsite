@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // SELECT 2
 $(document).ready(function () {
-  $("#mySelect").select2({
-    placeholder: "Select an option",
-    allowClear: true,
+  $(".select_field").select2({
+     minimumResultsForSearch: Infinity
   });
+ 
 });
 
 // Search Container
@@ -286,3 +286,56 @@ var swiper = new Swiper(".testi_swipers", {
     },
   },
 });
+
+// Active navigation list 
+$(document).ready(function () {
+  $(".navigation_list li").click(function () {
+    // Remove the 'active' class from all menu items
+    $(".navigation_list li").removeClass("active");
+
+    // Add the 'active' class to the clicked menu item
+    $(this).addClass("active");
+  });
+});
+
+
+
+
+$(document).ready(function() {
+  // Function to add the animation class to the elements
+  function animateElements() {
+    $(".content_wrap .content_title h2").addClass("animated-text-title");
+    $(".content_wrap .content_list li").addClass("animated-text-list");
+    $(".content_wrap .slide_btn button").addClass("animated-button");
+  }
+
+  // Call the animateElements function when the window has finished loading
+  $(window).on("load", function() {
+    animateElements();
+  });
+});
+
+
+//  scroll Top to bottom 
+var btn = $("#bottom_top_scroll");
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass("show");
+  } else {
+    btn.removeClass("show");
+  }
+});
+
+btn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "800");
+});
+
+
+// popup gallery 
+// $function(){
+// var gallery = $('.gallery a').simpleLightbox({
+
+// });
+// }

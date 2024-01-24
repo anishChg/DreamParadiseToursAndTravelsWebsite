@@ -132,10 +132,10 @@
                       </div>
                     </div>
                     <div class="content_wrap">
-                     
+
                       <div class="include_exclude_flx">
                         <ul class="included_wrap">
-                           <h3>What’s Included</h3>
+                          <h3>What’s Included</h3>
                           <li><i class="fa-solid fa-circle-check text-success"></i>Specialized bilingual
                             guide</li>
                           <li><i class="fa-solid fa-circle-check text-success"></i> Private Transport
@@ -147,9 +147,9 @@
                           <li><i class="fa-solid fa-circle-check text-success"></i> Box lunch water, banana
                             apple and chocolate
                           </li>
-                        </ul>                                                                                                                                           
+                        </ul>
                         <ul class="exclude_wrap">
-                           <h3>What’s Excluded</h3>
+                          <h3>What’s Excluded</h3>
                           <li><i class="fa-solid fa-circle-xmark text-danger"></i> Departure Taxes
                           </li>
                           <li><i class="fa-solid fa-circle-xmark text-danger"></i>Entry Fees
@@ -253,12 +253,12 @@
                 <div class="tab-pane fade active show" id="image-pane" role="tabpanel" aria-labelledby="image-tab"
                   tabindex="0">
                   <div class="photo_gallery">
-                    <div class="image_flx">
+                    <div class="image_flx gallery">
                       <div class="image_wrap">
-                        <img src="assets/images/tours-1.jpg" alt="">
+                        <a class="big" href="assets/images/tours-1.jpg" target="_blank"><img src="assets/images/tours-1.jpg" alt=""></a>
                       </div>
                       <div class="image_wrap">
-                        <img src="assets/images/tours-2.jpg" alt="">
+                        <a class="big" href="assets/images/tours-2.jpg" target="_blank"><img src="assets/images/tours-2.jpg" alt=""></a>
                       </div>
                       <!-- <div class="image_wrap">
                         <img src="assets/images/tours-4.jpg" alt="">
@@ -484,32 +484,36 @@
                 </div>
                 <input type="date" placeholder="Choose Date">
               </div>
-              <div class="form_group_flex">
+              <div class="form_group">
                 <div class="icon_wrap">
                   <i class="fa-solid fa-users-viewfinder"></i>
                 </div>
-                <div class="form_group">
-                  <select name="" id="">
-                    <option value="">0</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </select>
-                </div>
-                <div class="form_group">
-                  <select name="" id="">
-                    <option value="">0</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                  </select>
-                </div>
+                <select name="" id="">
+                  <option value="">Adult</option>
+                  <option value="">0</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </select>
               </div>
-                <div class="form_btn">
-                  <button type="submit" class="btn btn-primary">Proceed Booking</button>
+              <div class="form_group">
+                <div class="icon_wrap">
+                  <i class="fa-solid fa-users-viewfinder"></i>
                 </div>
+                <select name="" id="">
+                  <option value="">Children</option>
+                  <option value="">0</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                </select>
+              </div>
+              <div class="form_btn">
+                <a href="payment-page.php"><button type="submit" class="btn btn-primary"><i class="fa-solid fa-cloud-bolt"></i>Proceed
+                  Booking</button></a>
+              </div>
             </div>
-          
+
           </div>
         </div>
       </div>

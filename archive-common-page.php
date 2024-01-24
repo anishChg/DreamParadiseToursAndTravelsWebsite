@@ -28,6 +28,7 @@
         <div class="archive_flx">
           <div class="feat_card_wrapper">
             <div class="card_wrapper">
+              <a class="link_url" href="single-page.php">
               <div class="card_img">
                 <img src="assets/images/bike-1.jpg" alt="">
               </div>
@@ -57,6 +58,7 @@
                   <a href="#" class="btn_btn">Know More <span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </div>
               </div>
+              </a>
             </div>
             <div class="card_wrapper">
               <div class="card_img">

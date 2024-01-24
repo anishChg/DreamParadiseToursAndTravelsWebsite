@@ -19,9 +19,10 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 	<!-- SELECT 2 Plugins -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
-	integrity="sha512-HSf1v5ki+z0ue5wKYeDu8YMC+JCvJtqO5mp9YJ5eW6qJ1G1Tad1FDGlgCnbcCT3tkX60bcMumjOchx1Kb0imKQ=="
-	crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+	<!-- Gallery Popup -->
+	<!-- <link href="assets/gallery-popup/dist/simple-lightbox.min.css" /> -->
 
 	<link rel="stylesheet" href="assets/scss/main.css">
 	<style>
