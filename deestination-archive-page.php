@@ -101,7 +101,7 @@
               <div class="card_des">
                 <div class="location">
                   <h5><span><i class="fa-solid fa-location-dot"></i></span>Nepal</h5>
-                  <h4 class="treks">Trekking</h4>
+                  <h4 class="treks">Tours</h4>
                 </div>
                 <div class="title">
                   <h5>Pokhara, Annapurna Range, The Beauty of Nepal</h5>
